@@ -41,6 +41,21 @@ body{
 
 .menu-btn{
   display: inline-block;
+  position: absolute;
+}
+
+.menu-btn i{
+  font-size: 1.5rem;
+  color: #000;
+  background-color: transparent;
+}
+
+.menu-btn i:hover{
+  color: #fff;
+}
+
+menu-btn li{
+  font-size: 1.6rem;
 }
 
 .menu-bar.active {
